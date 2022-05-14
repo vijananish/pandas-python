@@ -45,3 +45,6 @@ On dropping rows, the value of the index will not adjust automatically. Therefor
 Make use of subset in order to drop “na” for a particular column.
 
 ## KEYWORDS
+1. The (inplace = True) will make sure that the method does NOT return a new DataFrame, but it will remove all duplicates from the original DataFrame
+2. "to_" prefix in order to convert type of data column to other type.
+3. corr() to find the correlation in the data.
