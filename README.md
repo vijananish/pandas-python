@@ -48,3 +48,6 @@ Make use of subset in order to drop “na” for a particular column.
 1. ```(inplace = True)``` : will make sure that the method does NOT return a new DataFrame, but it will remove all duplicates from the original DataFrame
 2. ```to_``` : prefix in order to convert type of data column to other type.
 3. ```corr()``` : to find the correlation in the data.
+4. Both isna() and isnull() functions are used to find the missing values in the pandas dataframe. isnull() and isna() literally does the same things. isnull() is just an alias of the isna() method as shown in pandas source code. Missing values are used to denote the values which are null or do not have any actual values.
+5. ```df.replace```: in order to replace the particular value with another.
+6. ```df.pivot_table()```: The levels in the pivot table will be stored in MultiIndex objects (hierarchical indexes) on the index and columns of the result DataFrame.

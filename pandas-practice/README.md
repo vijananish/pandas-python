@@ -22,6 +22,9 @@ data = {'animal': ['cat', 'cat', 'snake', 'dog', 'dog', 'cat', 'snake', 'cat', '
         'visits': [1, 3, 2, 3, 2, 3, 1, 1, 2, 1],
         'priority': ['yes', 'yes', 'no', 'yes', 'no', 'no', 'no', 'yes', 'no', 'no']}
 ```
+```
+labels = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+```
 #### 5. Display a summary of the basic information about this DataFrame and its data (hint: there is a single method that can be called on the DataFrame).
 
 #### 6. Return the first 3 rows of the DataFrame df.
@@ -44,7 +47,7 @@ data = {'animal': ['cat', 'cat', 'snake', 'dog', 'dog', 'cat', 'snake', 'cat', '
 
 #### 15. Calculate the mean age for each different animal in df.
 
-#### 15. Calculate the mean age for each different animal in df.
+#### 16. Append a new row 'k' to df with your choice of values for each column. Then delete that row to return the original DataFrame.
 
 #### 17. Count the number of each type of animal in df.
 
