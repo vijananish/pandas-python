@@ -49,5 +49,7 @@ Make use of subset in order to drop “na” for a particular column.
 2. ```to_``` : prefix in order to convert type of data column to other type.
 3. ```corr()``` : to find the correlation in the data.
 4. Both isna() and isnull() functions are used to find the missing values in the pandas dataframe. isnull() and isna() literally does the same things. isnull() is just an alias of the isna() method as shown in pandas source code. Missing values are used to denote the values which are null or do not have any actual values.
-5. ```df.replace```: in order to replace the particular value with another.
-6. ```df.pivot_table()```: The levels in the pivot table will be stored in MultiIndex objects (hierarchical indexes) on the index and columns of the result DataFrame.
+5. ```df.replace``` : in order to replace the particular value with another.
+6. ```df.pivot_table()``` : The levels in the pivot table will be stored in MultiIndex objects (hierarchical indexes) on the index and columns of the result DataFrame.
+7. ```level parameter in .sum()``` : Optional, default None. Specifies which level ( in a hierarchical multi index) to check along
+8. ```pd.cut()``` : Use cut when you need to segment and sort data values into bins. This function is also useful for going from a continuous variable to a categorical variable. For example, cut could convert ages to groups of age ranges. Supports binning into an equal number of bins, or a pre-specified array of bins.
